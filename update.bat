@@ -8,11 +8,11 @@ setlocal enabledelayedexpansion
 ::  commands to rebuild the SSH config file safely.
 :: ===================================================================
 
-set "LOG_FILE=%USERPROFILE%\.vm-epfl-connect\connected_info.log"
-set "SSH_HOST_ALIAS=vm-epfl"
+set "LOG_FILE=%USERPROFILE%\.vm-station-connect\connected_info.log"
+set "SSH_HOST_ALIAS=vm-station"
 set "SSH_USER=holi"
 
-cd %USERPROFILE%\.vm-epfl-connect
+cd %USERPROFILE%\.vm-station-connect
 git pull
 
 echo INFO: Checking for log file at %LOG_FILE%...
