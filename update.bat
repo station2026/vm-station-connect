@@ -10,7 +10,7 @@ setlocal enabledelayedexpansion
 
 set "LOG_FILE=%USERPROFILE%\.vm-station-connect\connected_info.log"
 set "SSH_HOST_ALIAS=vm-station"
-set "SSH_USER=holi"
+set "SSH_USER=station"
 
 cd %USERPROFILE%\.vm-station-connect
 git pull
