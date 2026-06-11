@@ -1,11 +1,11 @@
-t=2026-03-01T02:44:53+0800 lvl=info msg="no configuration paths supplied"
-t=2026-03-01T02:44:53+0800 lvl=info msg="using configuration at default config path" path=/home/station/.config/ngrok/ngrok.yml
-t=2026-03-01T02:44:53+0800 lvl=info msg="open config file" path=/home/station/.config/ngrok/ngrok.yml err=nil
-t=2026-03-01T02:44:53+0800 lvl=info msg="FIPS 140 mode" enabled=false
-t=2026-03-01T02:44:53+0800 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
-t=2026-03-01T02:44:53+0800 lvl=info msg="client session established" obj=tunnels.session
-t=2026-03-01T02:44:53+0800 lvl=info msg="tunnel session started" obj=tunnels.session
-t=2026-03-01T02:44:54+0800 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:22 url=tcp://0.tcp.ap.ngrok.io:12175
-t=2026-03-01T02:44:54+0800 lvl=info msg="update available" obj=updater
-t=2026-03-01T02:44:57+0800 lvl=info msg=start pg=/api/tunnels id=a5c6d85ab6b5c805
-t=2026-03-01T02:44:57+0800 lvl=info msg=end pg=/api/tunnels id=a5c6d85ab6b5c805 status=200 dur=411.676µs
+t=2026-06-11T19:29:12+0800 lvl=info msg="no configuration paths supplied"
+t=2026-06-11T19:29:12+0800 lvl=info msg="using configuration at default config path" path=/home/station/.config/ngrok/ngrok.yml
+t=2026-06-11T19:29:12+0800 lvl=info msg="open config file" path=/home/station/.config/ngrok/ngrok.yml err=nil
+t=2026-06-11T19:29:12+0800 lvl=info msg="FIPS 140 mode" enabled=false
+t=2026-06-11T19:29:12+0800 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2026-06-11T19:29:12+0800 lvl=info msg="client session established" obj=tunnels.session
+t=2026-06-11T19:29:12+0800 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-06-11T19:29:13+0800 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:22 url=tcp://0.tcp.ap.ngrok.io:13346
+t=2026-06-11T19:29:13+0800 lvl=info msg="update available" obj=updater
+t=2026-06-11T19:29:14+0800 lvl=info msg=start pg=/api/tunnels id=031642ec2698a9ac
+t=2026-06-11T19:29:14+0800 lvl=info msg=end pg=/api/tunnels id=031642ec2698a9ac status=200 dur=281.925µs
